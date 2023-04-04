@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\Exercicio09\bin\Debug\net7.0\Exercicio09.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\Exercicio09\bin\Debug\net7.0\Exercicio09.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\Exercicio09\bin\Debug\net7.0\Exercicio09.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\Exercicio09\bin\Debug\net7.0\Exercicio09.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\Exercicio09\bin\Debug\net7.0\Exercicio09.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\Exercicio09\obj\Debug\net7.0\Exercicio09.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\Exercicio09\obj\Debug\net7.0\Exercicio09.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\Exercicio09\obj\Debug\net7.0\Exercicio09.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\Exercicio09\obj\Debug\net7.0\Exercicio09.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\Exercicio09\obj\Debug\net7.0\Exercicio09.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\Exercicio09\obj\Debug\net7.0\Exercicio09.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\Exercicio09\obj\Debug\net7.0\refint\Exercicio09.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\Exercicio09\obj\Debug\net7.0\Exercicio09.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\Exercicio09\obj\Debug\net7.0\Exercicio09.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\Exercicio09\obj\Debug\net7.0\ref\Exercicio09.dll
