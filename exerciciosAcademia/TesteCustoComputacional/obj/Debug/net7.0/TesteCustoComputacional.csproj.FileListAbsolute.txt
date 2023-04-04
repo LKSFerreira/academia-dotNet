@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\TesteCustoComputacional\obj\Debug\net7.0\TesteCustoComputacional.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\TesteCustoComputacional\obj\Debug\net7.0\TesteCustoComputacional.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\TesteCustoComputacional\obj\Debug\net7.0\TesteCustoComputacional.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\TesteCustoComputacional\obj\Debug\net7.0\TesteCustoComputacional.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\TesteCustoComputacional\obj\Debug\net7.0\TesteCustoComputacional.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\TesteCustoComputacional\bin\Debug\net7.0\TesteCustoComputacional.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\TesteCustoComputacional\bin\Debug\net7.0\TesteCustoComputacional.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\TesteCustoComputacional\bin\Debug\net7.0\TesteCustoComputacional.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\TesteCustoComputacional\bin\Debug\net7.0\TesteCustoComputacional.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\TesteCustoComputacional\bin\Debug\net7.0\TesteCustoComputacional.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\TesteCustoComputacional\obj\Debug\net7.0\TesteCustoComputacional.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\TesteCustoComputacional\obj\Debug\net7.0\refint\TesteCustoComputacional.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\TesteCustoComputacional\obj\Debug\net7.0\TesteCustoComputacional.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\TesteCustoComputacional\obj\Debug\net7.0\TesteCustoComputacional.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\TesteCustoComputacional\obj\Debug\net7.0\ref\TesteCustoComputacional.dll

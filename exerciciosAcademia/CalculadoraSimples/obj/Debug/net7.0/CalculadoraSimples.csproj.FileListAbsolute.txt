@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculadoraSimples\bin\Debug\net7.0\CalculadoraSimples.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculadoraSimples\bin\Debug\net7.0\CalculadoraSimples.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculadoraSimples\bin\Debug\net7.0\CalculadoraSimples.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculadoraSimples\bin\Debug\net7.0\CalculadoraSimples.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculadoraSimples\bin\Debug\net7.0\CalculadoraSimples.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculadoraSimples\obj\Debug\net7.0\CalculadoraSimples.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculadoraSimples\obj\Debug\net7.0\CalculadoraSimples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculadoraSimples\obj\Debug\net7.0\CalculadoraSimples.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculadoraSimples\obj\Debug\net7.0\CalculadoraSimples.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculadoraSimples\obj\Debug\net7.0\CalculadoraSimples.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculadoraSimples\obj\Debug\net7.0\CalculadoraSimples.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculadoraSimples\obj\Debug\net7.0\refint\CalculadoraSimples.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculadoraSimples\obj\Debug\net7.0\CalculadoraSimples.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculadoraSimples\obj\Debug\net7.0\CalculadoraSimples.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculadoraSimples\obj\Debug\net7.0\ref\CalculadoraSimples.dll
