@@ -4,11 +4,11 @@ double valor01 = double.Parse(Console.ReadLine()!);
 Console.WriteLine($"Digite o segundo número: ");
 double valor02 = double.Parse(Console.ReadLine()!);
 
-Console.WriteLine($"Para qual operação deseja realizar? Digite: \r");
-Console.WriteLine($"1 - Soma \r");
-Console.WriteLine($"2 - Subtração \r");
-Console.WriteLine($"3 - Multiplicação \r");
-Console.WriteLine($"4 - Divisão \r");
+Console.WriteLine($"Para qual operação deseja realizar? Digite:");
+Console.WriteLine($"1 - Soma");
+Console.WriteLine($"2 - Subtração");
+Console.WriteLine($"3 - Multiplicação");
+Console.WriteLine($"4 - Divisão");
 
 int operacao = int.Parse(Console.ReadLine()!);
 
