@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculoComparacaoMedia\bin\Debug\net7.0\CalculoComparacaoMedia.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculoComparacaoMedia\bin\Debug\net7.0\CalculoComparacaoMedia.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculoComparacaoMedia\bin\Debug\net7.0\CalculoComparacaoMedia.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculoComparacaoMedia\bin\Debug\net7.0\CalculoComparacaoMedia.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculoComparacaoMedia\bin\Debug\net7.0\CalculoComparacaoMedia.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculoComparacaoMedia\obj\Debug\net7.0\CalculoComparacaoMedia.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculoComparacaoMedia\obj\Debug\net7.0\CalculoComparacaoMedia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculoComparacaoMedia\obj\Debug\net7.0\CalculoComparacaoMedia.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculoComparacaoMedia\obj\Debug\net7.0\CalculoComparacaoMedia.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculoComparacaoMedia\obj\Debug\net7.0\CalculoComparacaoMedia.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculoComparacaoMedia\obj\Debug\net7.0\CalculoComparacaoMedia.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculoComparacaoMedia\obj\Debug\net7.0\refint\CalculoComparacaoMedia.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculoComparacaoMedia\obj\Debug\net7.0\CalculoComparacaoMedia.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculoComparacaoMedia\obj\Debug\net7.0\CalculoComparacaoMedia.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\CalculoComparacaoMedia\obj\Debug\net7.0\ref\CalculoComparacaoMedia.dll

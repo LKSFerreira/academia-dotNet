@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoAreaTriangulo\bin\Debug\net7.0\ClassificandoAreaTriangulo.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoAreaTriangulo\bin\Debug\net7.0\ClassificandoAreaTriangulo.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoAreaTriangulo\bin\Debug\net7.0\ClassificandoAreaTriangulo.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoAreaTriangulo\bin\Debug\net7.0\ClassificandoAreaTriangulo.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoAreaTriangulo\bin\Debug\net7.0\ClassificandoAreaTriangulo.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoAreaTriangulo\obj\Debug\net7.0\ClassificandoAreaTriangulo.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoAreaTriangulo\obj\Debug\net7.0\ClassificandoAreaTriangulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoAreaTriangulo\obj\Debug\net7.0\ClassificandoAreaTriangulo.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoAreaTriangulo\obj\Debug\net7.0\ClassificandoAreaTriangulo.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoAreaTriangulo\obj\Debug\net7.0\ClassificandoAreaTriangulo.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoAreaTriangulo\obj\Debug\net7.0\ClassificandoAreaTriangulo.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoAreaTriangulo\obj\Debug\net7.0\refint\ClassificandoAreaTriangulo.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoAreaTriangulo\obj\Debug\net7.0\ClassificandoAreaTriangulo.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoAreaTriangulo\obj\Debug\net7.0\ClassificandoAreaTriangulo.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoAreaTriangulo\obj\Debug\net7.0\ref\ClassificandoAreaTriangulo.dll

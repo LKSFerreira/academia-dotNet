@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoTriangulos\bin\Debug\net7.0\ClassificandoTriangulos.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoTriangulos\bin\Debug\net7.0\ClassificandoTriangulos.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoTriangulos\bin\Debug\net7.0\ClassificandoTriangulos.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoTriangulos\bin\Debug\net7.0\ClassificandoTriangulos.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoTriangulos\bin\Debug\net7.0\ClassificandoTriangulos.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoTriangulos\obj\Debug\net7.0\ClassificandoTriangulos.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoTriangulos\obj\Debug\net7.0\ClassificandoTriangulos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoTriangulos\obj\Debug\net7.0\ClassificandoTriangulos.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoTriangulos\obj\Debug\net7.0\ClassificandoTriangulos.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoTriangulos\obj\Debug\net7.0\ClassificandoTriangulos.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoTriangulos\obj\Debug\net7.0\ClassificandoTriangulos.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoTriangulos\obj\Debug\net7.0\refint\ClassificandoTriangulos.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoTriangulos\obj\Debug\net7.0\ClassificandoTriangulos.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoTriangulos\obj\Debug\net7.0\ClassificandoTriangulos.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\ClassificandoTriangulos\obj\Debug\net7.0\ref\ClassificandoTriangulos.dll

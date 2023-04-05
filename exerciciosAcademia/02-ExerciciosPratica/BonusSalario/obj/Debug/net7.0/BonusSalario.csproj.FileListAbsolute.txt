@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\BonusSalario\bin\Debug\net7.0\BonusSalario.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\BonusSalario\bin\Debug\net7.0\BonusSalario.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\BonusSalario\bin\Debug\net7.0\BonusSalario.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\BonusSalario\bin\Debug\net7.0\BonusSalario.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\BonusSalario\bin\Debug\net7.0\BonusSalario.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\BonusSalario\obj\Debug\net7.0\BonusSalario.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\BonusSalario\obj\Debug\net7.0\BonusSalario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\BonusSalario\obj\Debug\net7.0\BonusSalario.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\BonusSalario\obj\Debug\net7.0\BonusSalario.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\BonusSalario\obj\Debug\net7.0\BonusSalario.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\BonusSalario\obj\Debug\net7.0\BonusSalario.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\BonusSalario\obj\Debug\net7.0\refint\BonusSalario.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\BonusSalario\obj\Debug\net7.0\BonusSalario.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\BonusSalario\obj\Debug\net7.0\BonusSalario.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\BonusSalario\obj\Debug\net7.0\ref\BonusSalario.dll
