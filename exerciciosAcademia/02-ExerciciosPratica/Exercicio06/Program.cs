@@ -10,7 +10,7 @@
 // maior que 35                -> obesidade grau sério
 
 Console.WriteLine($"Digite o nome da pessoa: ");
-string nome = Console.ReadLine().ToUpper()!;
+string nome = Console.ReadLine()!.ToUpper()!;
 
 Console.WriteLine($"Digite a altura da pessoa: ");
 double altura = double.Parse(Console.ReadLine()!);

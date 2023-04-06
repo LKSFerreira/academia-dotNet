@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\Exercicio20\bin\Debug\net7.0\Exercicio20.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\Exercicio20\bin\Debug\net7.0\Exercicio20.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\Exercicio20\bin\Debug\net7.0\Exercicio20.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\Exercicio20\bin\Debug\net7.0\Exercicio20.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\Exercicio20\bin\Debug\net7.0\Exercicio20.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\Exercicio20\obj\Debug\net7.0\Exercicio20.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\Exercicio20\obj\Debug\net7.0\Exercicio20.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\Exercicio20\obj\Debug\net7.0\Exercicio20.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\Exercicio20\obj\Debug\net7.0\Exercicio20.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\Exercicio20\obj\Debug\net7.0\Exercicio20.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\Exercicio20\obj\Debug\net7.0\Exercicio20.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\Exercicio20\obj\Debug\net7.0\refint\Exercicio20.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\Exercicio20\obj\Debug\net7.0\Exercicio20.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\Exercicio20\obj\Debug\net7.0\Exercicio20.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\Exercicio20\obj\Debug\net7.0\ref\Exercicio20.dll

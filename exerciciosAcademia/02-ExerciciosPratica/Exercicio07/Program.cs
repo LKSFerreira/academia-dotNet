@@ -3,10 +3,10 @@
 // exemplo, A palavra encontra-se na frase   ou A palavra não se encontra na frase.
 
 Console.WriteLine($"Digite uma frase: ");
-string frase = Console.ReadLine().ToUpper()!;
+string frase = Console.ReadLine()!.ToUpper()!;
 
 Console.WriteLine($"Digite uma palavra para pesquisar na frase: ");
-string palavra = Console.ReadLine().ToUpper()!;
+string palavra = Console.ReadLine()!.ToUpper()!;
 
 if (frase.Contains(palavra))
 {

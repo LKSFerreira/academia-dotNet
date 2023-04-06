@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\CalculadoraComSwitchCase\bin\Debug\net7.0\CalculadoraComSwitchCase.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\CalculadoraComSwitchCase\bin\Debug\net7.0\CalculadoraComSwitchCase.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\CalculadoraComSwitchCase\bin\Debug\net7.0\CalculadoraComSwitchCase.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\CalculadoraComSwitchCase\bin\Debug\net7.0\CalculadoraComSwitchCase.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\CalculadoraComSwitchCase\bin\Debug\net7.0\CalculadoraComSwitchCase.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\CalculadoraComSwitchCase\obj\Debug\net7.0\CalculadoraComSwitchCase.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\CalculadoraComSwitchCase\obj\Debug\net7.0\CalculadoraComSwitchCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\CalculadoraComSwitchCase\obj\Debug\net7.0\CalculadoraComSwitchCase.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\CalculadoraComSwitchCase\obj\Debug\net7.0\CalculadoraComSwitchCase.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\CalculadoraComSwitchCase\obj\Debug\net7.0\CalculadoraComSwitchCase.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\CalculadoraComSwitchCase\obj\Debug\net7.0\CalculadoraComSwitchCase.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\CalculadoraComSwitchCase\obj\Debug\net7.0\refint\CalculadoraComSwitchCase.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\CalculadoraComSwitchCase\obj\Debug\net7.0\CalculadoraComSwitchCase.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\CalculadoraComSwitchCase\obj\Debug\net7.0\CalculadoraComSwitchCase.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\03-ExerciciosPratica\CalculadoraComSwitchCase\obj\Debug\net7.0\ref\CalculadoraComSwitchCase.dll
