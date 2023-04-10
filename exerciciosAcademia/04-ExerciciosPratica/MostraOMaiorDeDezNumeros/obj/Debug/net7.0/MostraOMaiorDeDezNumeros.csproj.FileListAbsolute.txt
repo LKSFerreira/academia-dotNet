@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\MostraOMaiorDeDezNumeros\obj\Debug\net7.0\MostraOMaiorDeDezNumeros.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\MostraOMaiorDeDezNumeros\obj\Debug\net7.0\MostraOMaiorDeDezNumeros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\MostraOMaiorDeDezNumeros\obj\Debug\net7.0\MostraOMaiorDeDezNumeros.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\MostraOMaiorDeDezNumeros\obj\Debug\net7.0\MostraOMaiorDeDezNumeros.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\MostraOMaiorDeDezNumeros\obj\Debug\net7.0\MostraOMaiorDeDezNumeros.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\MostraOMaiorDeDezNumeros\bin\Debug\net7.0\MostraOMaiorDeDezNumeros.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\MostraOMaiorDeDezNumeros\bin\Debug\net7.0\MostraOMaiorDeDezNumeros.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\MostraOMaiorDeDezNumeros\bin\Debug\net7.0\MostraOMaiorDeDezNumeros.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\MostraOMaiorDeDezNumeros\bin\Debug\net7.0\MostraOMaiorDeDezNumeros.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\MostraOMaiorDeDezNumeros\bin\Debug\net7.0\MostraOMaiorDeDezNumeros.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\MostraOMaiorDeDezNumeros\obj\Debug\net7.0\MostraOMaiorDeDezNumeros.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\MostraOMaiorDeDezNumeros\obj\Debug\net7.0\refint\MostraOMaiorDeDezNumeros.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\MostraOMaiorDeDezNumeros\obj\Debug\net7.0\MostraOMaiorDeDezNumeros.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\MostraOMaiorDeDezNumeros\obj\Debug\net7.0\MostraOMaiorDeDezNumeros.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\MostraOMaiorDeDezNumeros\obj\Debug\net7.0\ref\MostraOMaiorDeDezNumeros.dll

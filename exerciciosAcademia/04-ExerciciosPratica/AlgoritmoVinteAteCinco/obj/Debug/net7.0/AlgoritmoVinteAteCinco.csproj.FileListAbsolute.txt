@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoVinteAteCinco\bin\Debug\net7.0\AlgoritmoVinteAteCinco.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoVinteAteCinco\bin\Debug\net7.0\AlgoritmoVinteAteCinco.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoVinteAteCinco\bin\Debug\net7.0\AlgoritmoVinteAteCinco.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoVinteAteCinco\bin\Debug\net7.0\AlgoritmoVinteAteCinco.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoVinteAteCinco\bin\Debug\net7.0\AlgoritmoVinteAteCinco.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoVinteAteCinco\obj\Debug\net7.0\AlgoritmoVinteAteCinco.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoVinteAteCinco\obj\Debug\net7.0\AlgoritmoVinteAteCinco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoVinteAteCinco\obj\Debug\net7.0\AlgoritmoVinteAteCinco.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoVinteAteCinco\obj\Debug\net7.0\AlgoritmoVinteAteCinco.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoVinteAteCinco\obj\Debug\net7.0\AlgoritmoVinteAteCinco.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoVinteAteCinco\obj\Debug\net7.0\AlgoritmoVinteAteCinco.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoVinteAteCinco\obj\Debug\net7.0\refint\AlgoritmoVinteAteCinco.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoVinteAteCinco\obj\Debug\net7.0\AlgoritmoVinteAteCinco.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoVinteAteCinco\obj\Debug\net7.0\AlgoritmoVinteAteCinco.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoVinteAteCinco\obj\Debug\net7.0\ref\AlgoritmoVinteAteCinco.dll

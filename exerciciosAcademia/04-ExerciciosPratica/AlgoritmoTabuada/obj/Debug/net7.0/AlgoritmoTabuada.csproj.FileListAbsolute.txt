@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoTabuada\bin\Debug\net7.0\AlgoritmoTabuada.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoTabuada\bin\Debug\net7.0\AlgoritmoTabuada.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoTabuada\bin\Debug\net7.0\AlgoritmoTabuada.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoTabuada\bin\Debug\net7.0\AlgoritmoTabuada.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoTabuada\bin\Debug\net7.0\AlgoritmoTabuada.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoTabuada\obj\Debug\net7.0\AlgoritmoTabuada.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoTabuada\obj\Debug\net7.0\AlgoritmoTabuada.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoTabuada\obj\Debug\net7.0\AlgoritmoTabuada.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoTabuada\obj\Debug\net7.0\AlgoritmoTabuada.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoTabuada\obj\Debug\net7.0\AlgoritmoTabuada.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoTabuada\obj\Debug\net7.0\AlgoritmoTabuada.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoTabuada\obj\Debug\net7.0\refint\AlgoritmoTabuada.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoTabuada\obj\Debug\net7.0\AlgoritmoTabuada.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoTabuada\obj\Debug\net7.0\AlgoritmoTabuada.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoTabuada\obj\Debug\net7.0\ref\AlgoritmoTabuada.dll

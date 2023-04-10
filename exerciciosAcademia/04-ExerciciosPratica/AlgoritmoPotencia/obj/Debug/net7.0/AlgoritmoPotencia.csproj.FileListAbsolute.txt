@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoPotencia\bin\Debug\net7.0\AlgoritmoPotencia.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoPotencia\bin\Debug\net7.0\AlgoritmoPotencia.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoPotencia\bin\Debug\net7.0\AlgoritmoPotencia.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoPotencia\bin\Debug\net7.0\AlgoritmoPotencia.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoPotencia\bin\Debug\net7.0\AlgoritmoPotencia.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoPotencia\obj\Debug\net7.0\AlgoritmoPotencia.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoPotencia\obj\Debug\net7.0\AlgoritmoPotencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoPotencia\obj\Debug\net7.0\AlgoritmoPotencia.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoPotencia\obj\Debug\net7.0\AlgoritmoPotencia.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoPotencia\obj\Debug\net7.0\AlgoritmoPotencia.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoPotencia\obj\Debug\net7.0\AlgoritmoPotencia.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoPotencia\obj\Debug\net7.0\refint\AlgoritmoPotencia.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoPotencia\obj\Debug\net7.0\AlgoritmoPotencia.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoPotencia\obj\Debug\net7.0\AlgoritmoPotencia.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoPotencia\obj\Debug\net7.0\ref\AlgoritmoPotencia.dll

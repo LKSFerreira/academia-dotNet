@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\CalcularMediaIdade\bin\Debug\net7.0\CalcularMediaIdade.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\CalcularMediaIdade\bin\Debug\net7.0\CalcularMediaIdade.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\CalcularMediaIdade\bin\Debug\net7.0\CalcularMediaIdade.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\CalcularMediaIdade\bin\Debug\net7.0\CalcularMediaIdade.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\CalcularMediaIdade\bin\Debug\net7.0\CalcularMediaIdade.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\CalcularMediaIdade\obj\Debug\net7.0\CalcularMediaIdade.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\CalcularMediaIdade\obj\Debug\net7.0\CalcularMediaIdade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\CalcularMediaIdade\obj\Debug\net7.0\CalcularMediaIdade.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\CalcularMediaIdade\obj\Debug\net7.0\CalcularMediaIdade.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\CalcularMediaIdade\obj\Debug\net7.0\CalcularMediaIdade.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\CalcularMediaIdade\obj\Debug\net7.0\CalcularMediaIdade.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\CalcularMediaIdade\obj\Debug\net7.0\refint\CalcularMediaIdade.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\CalcularMediaIdade\obj\Debug\net7.0\CalcularMediaIdade.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\CalcularMediaIdade\obj\Debug\net7.0\CalcularMediaIdade.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\CalcularMediaIdade\obj\Debug\net7.0\ref\CalcularMediaIdade.dll

@@ -9,7 +9,7 @@ double tamanhoArea = double.Parse(Console.ReadLine()!);
 double precoLataTinta = 80.00;
 
 double litrosTinta = tamanhoArea / 3;
-double latasTinta = litrosTinta / 18;
+double latasTinta = Math.Ceiling(litrosTinta / 18);
 double precoTotal = latasTinta * precoLataTinta;
 
 Console.WriteLine($"A quantidade de latas de tinta a serem compradas é: {latasTinta}");

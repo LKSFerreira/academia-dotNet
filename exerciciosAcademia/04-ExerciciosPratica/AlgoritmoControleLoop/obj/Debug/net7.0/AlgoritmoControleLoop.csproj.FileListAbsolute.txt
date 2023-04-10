@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleLoop\bin\Debug\net7.0\AlgoritmoControleLoop.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleLoop\bin\Debug\net7.0\AlgoritmoControleLoop.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleLoop\bin\Debug\net7.0\AlgoritmoControleLoop.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleLoop\bin\Debug\net7.0\AlgoritmoControleLoop.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleLoop\bin\Debug\net7.0\AlgoritmoControleLoop.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleLoop\obj\Debug\net7.0\AlgoritmoControleLoop.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleLoop\obj\Debug\net7.0\AlgoritmoControleLoop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleLoop\obj\Debug\net7.0\AlgoritmoControleLoop.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleLoop\obj\Debug\net7.0\AlgoritmoControleLoop.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleLoop\obj\Debug\net7.0\AlgoritmoControleLoop.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleLoop\obj\Debug\net7.0\AlgoritmoControleLoop.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleLoop\obj\Debug\net7.0\refint\AlgoritmoControleLoop.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleLoop\obj\Debug\net7.0\AlgoritmoControleLoop.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleLoop\obj\Debug\net7.0\AlgoritmoControleLoop.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleLoop\obj\Debug\net7.0\ref\AlgoritmoControleLoop.dll

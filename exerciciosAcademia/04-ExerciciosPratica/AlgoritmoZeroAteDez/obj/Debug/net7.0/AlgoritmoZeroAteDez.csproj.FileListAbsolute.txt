@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoZeroAteDez\bin\Debug\net7.0\AlgoritmoZeroAteDez.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoZeroAteDez\bin\Debug\net7.0\AlgoritmoZeroAteDez.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoZeroAteDez\bin\Debug\net7.0\AlgoritmoZeroAteDez.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoZeroAteDez\bin\Debug\net7.0\AlgoritmoZeroAteDez.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoZeroAteDez\bin\Debug\net7.0\AlgoritmoZeroAteDez.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoZeroAteDez\obj\Debug\net7.0\AlgoritmoZeroAteDez.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoZeroAteDez\obj\Debug\net7.0\AlgoritmoZeroAteDez.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoZeroAteDez\obj\Debug\net7.0\AlgoritmoZeroAteDez.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoZeroAteDez\obj\Debug\net7.0\AlgoritmoZeroAteDez.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoZeroAteDez\obj\Debug\net7.0\AlgoritmoZeroAteDez.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoZeroAteDez\obj\Debug\net7.0\AlgoritmoZeroAteDez.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoZeroAteDez\obj\Debug\net7.0\refint\AlgoritmoZeroAteDez.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoZeroAteDez\obj\Debug\net7.0\AlgoritmoZeroAteDez.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoZeroAteDez\obj\Debug\net7.0\AlgoritmoZeroAteDez.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoZeroAteDez\obj\Debug\net7.0\ref\AlgoritmoZeroAteDez.dll

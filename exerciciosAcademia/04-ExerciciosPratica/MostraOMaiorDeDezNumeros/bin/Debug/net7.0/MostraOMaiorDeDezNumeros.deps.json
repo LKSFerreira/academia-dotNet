@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "MostraOMaiorDeDezNumeros/1.0.0": {
+        "runtime": {
+          "MostraOMaiorDeDezNumeros.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MostraOMaiorDeDezNumeros/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

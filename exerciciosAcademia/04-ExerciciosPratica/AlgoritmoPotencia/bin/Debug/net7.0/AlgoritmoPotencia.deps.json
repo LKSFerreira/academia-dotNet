@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "AlgoritmoPotencia/1.0.0": {
+        "runtime": {
+          "AlgoritmoPotencia.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AlgoritmoPotencia/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

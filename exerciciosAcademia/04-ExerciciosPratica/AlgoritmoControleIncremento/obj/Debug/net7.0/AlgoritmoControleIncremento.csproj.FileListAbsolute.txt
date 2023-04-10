@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleIncremento\bin\Debug\net7.0\AlgoritmoControleIncremento.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleIncremento\bin\Debug\net7.0\AlgoritmoControleIncremento.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleIncremento\bin\Debug\net7.0\AlgoritmoControleIncremento.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleIncremento\bin\Debug\net7.0\AlgoritmoControleIncremento.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleIncremento\bin\Debug\net7.0\AlgoritmoControleIncremento.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleIncremento\obj\Debug\net7.0\AlgoritmoControleIncremento.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleIncremento\obj\Debug\net7.0\AlgoritmoControleIncremento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleIncremento\obj\Debug\net7.0\AlgoritmoControleIncremento.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleIncremento\obj\Debug\net7.0\AlgoritmoControleIncremento.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleIncremento\obj\Debug\net7.0\AlgoritmoControleIncremento.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleIncremento\obj\Debug\net7.0\AlgoritmoControleIncremento.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleIncremento\obj\Debug\net7.0\refint\AlgoritmoControleIncremento.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleIncremento\obj\Debug\net7.0\AlgoritmoControleIncremento.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleIncremento\obj\Debug\net7.0\AlgoritmoControleIncremento.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\04-ExerciciosPratica\AlgoritmoControleIncremento\obj\Debug\net7.0\ref\AlgoritmoControleIncremento.dll
