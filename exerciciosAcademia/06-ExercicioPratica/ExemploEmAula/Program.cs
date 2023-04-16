@@ -1,9 +1,9 @@
 ﻿int[] vetor = new int[3];
 
-for (int i = 0; i < vetor.length; i++)
+for (int i = 0; i < vetor.Length; i++)
 {
     Console.WriteLine($"Informe um valor para a posição {i}:");
-    vetor[i] = int.Parse(Console.ReadLine());
+    vetor[i] = int.Parse(Console.ReadLine()!);
 }
 
 for (int i = 0; i < vetor.Length; i++)
