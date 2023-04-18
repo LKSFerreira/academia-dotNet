@@ -1,0 +1,15 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\08-ExercicioPratica\Funcoes\bin\Debug\net7.0\Funcoes.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\08-ExercicioPratica\Funcoes\bin\Debug\net7.0\Funcoes.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\08-ExercicioPratica\Funcoes\bin\Debug\net7.0\Funcoes.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\08-ExercicioPratica\Funcoes\bin\Debug\net7.0\Funcoes.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\08-ExercicioPratica\Funcoes\bin\Debug\net7.0\Funcoes.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\08-ExercicioPratica\Funcoes\obj\Debug\net7.0\Funcoes.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\08-ExercicioPratica\Funcoes\obj\Debug\net7.0\Funcoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\08-ExercicioPratica\Funcoes\obj\Debug\net7.0\Funcoes.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\08-ExercicioPratica\Funcoes\obj\Debug\net7.0\Funcoes.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\08-ExercicioPratica\Funcoes\obj\Debug\net7.0\Funcoes.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\08-ExercicioPratica\Funcoes\obj\Debug\net7.0\Funcoes.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\08-ExercicioPratica\Funcoes\obj\Debug\net7.0\refint\Funcoes.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\08-ExercicioPratica\Funcoes\obj\Debug\net7.0\Funcoes.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\08-ExercicioPratica\Funcoes\obj\Debug\net7.0\Funcoes.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\exerciciosAcademia\08-ExercicioPratica\Funcoes\obj\Debug\net7.0\ref\Funcoes.dll
