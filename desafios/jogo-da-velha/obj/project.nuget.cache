@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Df1y/7Nxefnzyz6Oi+YfOAdgs7JooBRC5Lz1XcgLp+2WzwaYtZydzGBNoSMIi3YcUaSReoThwVQTY+irTx1n9A==",
+  "dgSpecHash": "RbwgCm6Z50H8Nol4Ny4MVBUCh6tY9jXD8f0MmzEgfafRgLHRJAluZx/yLV/av25DNlO8uTLyLTODc9pQmypO/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lucas Ferreira\\Documents\\GitHub\\academia-dotNet\\desafios\\jogo-da-velha\\jogo-da-velha.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Lucas Ferreira\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

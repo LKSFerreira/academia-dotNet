@@ -1,5 +1,31 @@
 public class JogoDaVelhaController
 {
+    public void OpcoesMenu(int opcaoMenu)
+    {
+        JogoDaVelha jogoDaVelha = new JogoDaVelha();
+        Dashbord dashbord = new Dashbord();
+
+        switch (opcaoMenu)
+        {
+            case 1:
+                jogoDaVelha.SelecionarJogadores();
+                break;
+            case 2:
+                dashbord.ExibirRank();
+                break;
+            case 3:
+                dashbord.ExibeJogador();
+                break;
+            case 0:
+                Environment.Exit(0);
+                break;
+            default:
+                Console.Clear();
+                Console.WriteLine($"    Por favor seleciona uma opção válida \n");
+                break;
+        }
+    }
+
     private IDictionary<string, int> coordTabuleiro = new Dictionary<string, int>
     {
         {"A1",146},
@@ -27,7 +53,6 @@ public class JogoDaVelhaController
         {"B3",8},
         {"C3",9}
     };
-
     private HashSet<string> posicoesRelativas = new HashSet<string>
         { "A1", "A2", "A3", "B1", "B2", "B3", "C1", "C2", "C3", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
 
@@ -93,7 +118,7 @@ public class JogoDaVelhaController
         };
         return coord;
     }
-    
+
     public static bool CondicionalVitoria(string tabuleiro, string jogador_X_ou_O)
     {
         char valor = jogador_X_ou_O[0];

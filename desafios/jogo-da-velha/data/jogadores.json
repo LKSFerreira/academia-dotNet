@@ -1,0 +1,34 @@
+[
+    {
+        "HashJogador": "lucas",
+        "Nome": "Lucas Ferreira",
+        "QuantidadePartidas": 5,
+        "Vitorias": 5,
+        "Derrotas": 0,
+        "Empates": 0
+    },
+    {
+        "HashJogador": "isabelly",
+        "Nome": "Isabelly Sofia",
+        "QuantidadePartidas": 10,
+        "Vitorias": 10,
+        "Derrotas": 0,
+        "Empates": 0
+    },
+    {
+        "HashJogador": "vanderleia",
+        "Nome": "Vanderleia Gomes",
+        "QuantidadePartidas": 8,
+        "Vitorias": 8,
+        "Derrotas": 0,
+        "Empates": 0
+    },
+    {
+        "HashJogador": "tony",
+        "Nome": "Tony Stark",
+        "QuantidadePartidas": 0,
+        "Vitorias": 0,
+        "Derrotas": 0,
+        "Empates": 0
+    }
+]

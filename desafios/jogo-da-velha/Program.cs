@@ -1,1 +1,6 @@
-﻿Console.WriteLine($"{ArtASCII._JogoDaVelha}");
+﻿Dashbord dashbord = new Dashbord();
+do
+{
+    dashbord.Iniciar();
+    
+} while (true);

@@ -1,0 +1,17 @@
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\desafios\jogo-da-velha\bin\Debug\net7.0\jogo-da-velha.exe
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\desafios\jogo-da-velha\bin\Debug\net7.0\jogo-da-velha.deps.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\desafios\jogo-da-velha\bin\Debug\net7.0\jogo-da-velha.runtimeconfig.json
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\desafios\jogo-da-velha\bin\Debug\net7.0\jogo-da-velha.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\desafios\jogo-da-velha\bin\Debug\net7.0\jogo-da-velha.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\desafios\jogo-da-velha\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\desafios\jogo-da-velha\obj\Debug\net7.0\jogo-da-velha.csproj.AssemblyReference.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\desafios\jogo-da-velha\obj\Debug\net7.0\jogo-da-velha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\desafios\jogo-da-velha\obj\Debug\net7.0\jogo-da-velha.AssemblyInfoInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\desafios\jogo-da-velha\obj\Debug\net7.0\jogo-da-velha.AssemblyInfo.cs
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\desafios\jogo-da-velha\obj\Debug\net7.0\jogo-da-velha.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\desafios\jogo-da-velha\obj\Debug\net7.0\jogo-da-velha.csproj.CopyComplete
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\desafios\jogo-da-velha\obj\Debug\net7.0\jogo-da-velha.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\desafios\jogo-da-velha\obj\Debug\net7.0\refint\jogo-da-velha.dll
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\desafios\jogo-da-velha\obj\Debug\net7.0\jogo-da-velha.pdb
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\desafios\jogo-da-velha\obj\Debug\net7.0\jogo-da-velha.genruntimeconfig.cache
+C:\Users\Lucas Ferreira\Documents\GitHub\academia-dotNet\desafios\jogo-da-velha\obj\Debug\net7.0\ref\jogo-da-velha.dll
