@@ -4,7 +4,7 @@ public class Dashbord
 {
     private static string pathJogadores = "./data/jogadores.json";
     private static string jsonJogadores = File.ReadAllText(pathJogadores);
-    JogoDaVelhaController jogoDaVelhaController = new JogoDaVelhaController();
+
 
     public void Iniciar()
     {
@@ -21,15 +21,19 @@ public class Dashbord
 
     private void OpcoesMenu(int opcaoMenu)
     {
+        JogoDaVelhaController jogoDaVelhaController = new JogoDaVelhaController();
+
         switch (opcaoMenu)
         {
             case 1:
                 Console.Clear();
-                Menu(opcaoMenu);
+                JogoDaVelha.JogarPvP(true);
+                jogoDaVelhaController.menuPvP();
                 break;
             case 2:
                 Console.Clear();
-                Menu(opcaoMenu);
+                JogoDaVelha.JogarPvP(false);
+                jogoDaVelhaController.menuPvE();
                 break;
             case 0:
                 Environment.Exit(0);
@@ -43,18 +47,6 @@ public class Dashbord
                 break;
         }
     }
-
-    public void Menu(int opcaoMenu)
-    {
-        Console.WriteLine($"    Digite uma opção:\n");
-        Console.WriteLine($"    1 - Jogar");
-        Console.WriteLine($"    2 - Rank");
-        Console.WriteLine($"    3 - Estatísticas do jogador");
-        Console.WriteLine($"    0 - Sair");
-
-        if (opcaoMenu == 1) jogoDaVelhaController.OpcoesMenu(SelecionarMenu());
-    }
-
     private int SelecionarMenu()
     {
         string entradaUsuario = Console.ReadLine()!;
@@ -67,17 +59,12 @@ public class Dashbord
         return opcaoMenu;
     }
 
-    public Jogador PvP()
+    public Jogador PvP(string nomeJogador)
     {
-        Console.WriteLine($"    Digite o nome do jogador");
-        string nomeJogador = Console.ReadLine()!;
-
-
         if (BuscaJogador(nomeJogador) is null)
         {
             Jogador jogador = new Jogador(nomeJogador);
             AdicionaJogador(jogador);
-            BuscaJogador(jogador.Nome);
             return jogador;
         }
         else
@@ -103,18 +90,21 @@ public class Dashbord
 
         foreach (var jogador in jogadores.Where(player => player.Nome == nomeJogador))
         {
-            ArtASCII.ConstruirNomeArtASCII(jogador.Nome);
-
-            Console.WriteLine($"    Nome: {jogador.Nome}");
-            Console.WriteLine($"    Vitórias: {jogador.Vitorias}");
-
-            Console.Write($"\n");
-
             return jogador;
         }
 
         Jogador novoJogador = new Jogador(nomeJogador);
         return novoJogador;
+    }
+
+    public void MostraJogador(Jogador jogador)
+    {
+        ArtASCII.ConstruirNomeArtASCII(jogador.Nome);
+
+        Console.WriteLine($"    Nome: {jogador.Nome}");
+        Console.WriteLine($"    Vitórias: {jogador.Vitorias}");
+
+        Console.Write($"\n");
     }
 
 
@@ -134,7 +124,7 @@ public class Dashbord
         return jogadores;
     }
 
-    public void ExibeJogador()
+    public void ExibeEstatiticasJogador()
     {
         Console.WriteLine($"Digite o hash do jogador: ");
         string hashJogador = Console.ReadLine()!;
@@ -192,6 +182,8 @@ public class Dashbord
             Jogador[] jogadores = { player2, player1 };
             return jogadores;
         }
+
+        
     }
 
     public void ExibirRank()

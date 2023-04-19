@@ -1,20 +1,59 @@
 public class JogoDaVelhaController
 {
-    public void OpcoesMenu(int opcaoMenu)
+    JogoDaVelha jogoDaVelha = new JogoDaVelha();
+    Dashbord dashbord = new Dashbord();
+    public void menuPvP()
     {
-        JogoDaVelha jogoDaVelha = new JogoDaVelha();
-        Dashbord dashbord = new Dashbord();
+        Console.WriteLine($"    Digite uma opção:\n");
+        Console.WriteLine($"    1 - Jogar");
+        Console.WriteLine($"    2 - Rank");
+        Console.WriteLine($"    3 - Estatísticas do jogador");
+        Console.WriteLine($"    0 - Sair");
+        Console.WriteLine($"");
+        int opcaoMenu = int.Parse(Console.ReadLine()!);
 
         switch (opcaoMenu)
         {
             case 1:
-                jogoDaVelha.SelecionarJogadores();
+                jogoDaVelha.SelecionaJogadores();
                 break;
             case 2:
                 dashbord.ExibirRank();
                 break;
             case 3:
-                dashbord.ExibeJogador();
+                dashbord.ExibeEstatiticasJogador();
+                break;
+            case 0:
+                Environment.Exit(0);
+                break;
+            default:
+                Console.Clear();
+                Console.WriteLine($"    Por favor seleciona uma opção válida \n");
+                break;
+        }
+    }
+
+    public void menuPvE()
+    {
+        Console.WriteLine($"    Digite uma opção para configurar a dificuldade:\n");
+        Console.WriteLine($"    1 - Fácil");
+        Console.WriteLine($"    2 - Difícil");
+        Console.WriteLine($"    3 - Estatísticas do jogador");
+        Console.WriteLine($"    0 - Sair");
+        Console.WriteLine($"");
+        int opcaoMenu = int.Parse(Console.ReadLine()!);
+
+        switch (opcaoMenu)
+        {
+            case 1:
+                jogoDaVelha.DificuldadeIA(false);
+                jogoDaVelha.SelecionaJogadores();
+                break;
+            case 2:
+                // dashbord.dificuldadeDificil();
+                break;
+            case 3:
+                dashbord.ExibeEstatiticasJogador();
                 break;
             case 0:
                 Environment.Exit(0);
@@ -39,7 +78,12 @@ public class JogoDaVelhaController
         {"C3",50}
     };
 
-    private HashSet<string> coordenadasOcupadas = new HashSet<string>();
+    private static HashSet<string> coordenadasOcupadas = new HashSet<string>();
+
+    public static HashSet<string> BuscarCoordenadasOcupadas()
+    {
+        return coordenadasOcupadas;
+    }
 
     private IDictionary<string, int> coordOcupadas = new Dictionary<string, int>
     {

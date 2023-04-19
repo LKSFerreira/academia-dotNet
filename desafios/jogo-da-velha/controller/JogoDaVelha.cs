@@ -1,11 +1,24 @@
 public class JogoDaVelha
 {
     Dashbord dashbord = new Dashbord();
+    private static bool dificuldadeIA = false;
+    private static bool isPvP = false;
 
-    public void SelecionarJogadores()
+    public void SelecionaJogadores()
     {
-        Jogador jogador01 = dashbord.PvP();
-        Jogador jogador02 = dashbord.PvP();
+        Console.WriteLine($"    Digite o nome do jogador");
+        string nomeJogador = Console.ReadLine()!;
+        Jogador jogador01 = dashbord.PvP(nomeJogador);
+
+        Jogador jogador02 = new Jogador("ChatGPT");
+
+        if (isPvP)
+        {
+            Console.WriteLine($"    Digite o nome do jogador");
+            string nomeJogador02 = Console.ReadLine()!;
+            jogador02 = dashbord.PvP(nomeJogador02);
+        }
+
         Console.WriteLine($"    {jogador01.Nome} pronto(a)! Para o adversário(a)\n");
         Console.WriteLine($"    {jogador02.Nome} preparado(a) para começar!\n ");
         Thread.Sleep(3000);
@@ -14,10 +27,24 @@ public class JogoDaVelha
 
         ArtASCII.ConstruirNomeArtASCII($"{jogador01.Nome} VS {jogador02.Nome}");
 
-        IniciarPartida(jogador01, jogador02);
+        IniciaPartida(jogador01, jogador02);
     }
 
-    private void IniciarPartida(Jogador player01, Jogador player02)
+    private string jogaChatGPT(HashSet<string> coordenadasOcupadas)
+    {
+        Random random = new Random();
+        string jogadaChatGTP;
+
+        do
+        {
+            jogadaChatGTP = random.Next(1, 10).ToString();
+
+        } while (coordenadasOcupadas.Contains(jogadaChatGTP));
+
+        return jogadaChatGTP;
+    }
+
+    private void IniciaPartida(Jogador player01, Jogador player02)
     {
         JogoDaVelhaController jogoDaVelhaController = new JogoDaVelhaController();
 
@@ -34,26 +61,16 @@ public class JogoDaVelha
         Console.WriteLine($"    {tabuleiro}\n");
 
         int numeroDeJogadas = 0;
-        Random random = new Random();
-
-        // HashSet<int> numerosSorteados = new();
         HashSet<int> jogadasPlayer01 = new();
         HashSet<int> jogadasPlayer02 = new();
-
-        // while (numerosSorteados.Count < 9)
-        // {
-        //     int numeroAleatorio = random.Next(1, 10);
-        //     numerosSorteados.Add(numeroAleatorio);
-        // }
 
         int quantidadeJogadas = 0, jogada = 1;
         string jogadorX = "X", jogadorO = "O";
 
         do
         {
-
             Console.WriteLine($"    {jogada}\u00aa jogada de: {jogadorDaVez[0].Nome}");
-            string jogadaDoPlayer01 = Console.ReadLine()!.ToUpper();
+            string jogadaDoPlayer01 = verificaChatGPT(jogadorDaVez);
 
             var realizadaJogada = jogoDaVelhaController.RealizarJogada(tabuleiro, jogadaDoPlayer01, jogadorX);
             tabuleiro = realizadaJogada.Item2;
@@ -81,7 +98,7 @@ public class JogoDaVelha
 
 
             Console.WriteLine($"    {jogada}\u00aa jogada de: {jogadorDaVez[1].Nome}");
-            string jogadaPlayer02 = Console.ReadLine()!.ToUpper();
+            string jogadaPlayer02 = verificaChatGPT(jogadorDaVez);
 
             realizadaJogada = jogoDaVelhaController.RealizarJogada(tabuleiro, jogadaPlayer02, jogadorO);
             tabuleiro = realizadaJogada.Item2;
@@ -106,6 +123,30 @@ public class JogoDaVelha
         } while (numeroDeJogadas < 9);
     }
 
+    private string verificaChatGPT(Jogador[] jogadorDaVez)
+    {
+        string jogadaDoPlayer;
+        if (!(jogadorDaVez[0].Nome == "ChatGPT"))
+        {
+            Console.WriteLine($"    Digite a coordenada da jogada: ");
+            jogadaDoPlayer = Console.ReadLine()!.ToUpper();
+        }
+        else
+        {
+            Thread.Sleep(1000);
+            jogadaDoPlayer = jogaChatGPT(JogoDaVelhaController.BuscarCoordenadasOcupadas()).ToString();
+        }
 
+        return jogadaDoPlayer;
+    }
 
+    public void DificuldadeIA(bool ligadoOuDesligada)
+    {
+        dificuldadeIA = ligadoOuDesligada;
+    }
+
+    public static void JogarPvP(bool isPvP)
+    {
+        JogoDaVelha.isPvP = isPvP;
+    }
 }
