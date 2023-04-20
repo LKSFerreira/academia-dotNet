@@ -1,0 +1,113 @@
+:root {
+    /* qual a cord verde do filme matriz */
+    --cor-fundo-primaria: rgb(49, 207, 49);
+    --cor-texto: #000;
+
+    --cor-link-hover: #000;
+
+    --cor-link-hover-border-radius: 5px;
+
+}
+
+/* Definição de fontes */
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Estilo do header */
+header {
+    background-color: var(--cor-fundo-primaria);
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #000;
+    font-size: 60px;
+    margin: 0;
+}
+
+/* Estilo da navegação */
+nav {
+    background-color: #111;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: var(--cor-fundo-primaria);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+nav a:hover {
+    color: #000;
+    background-color: var(--cor-fundo-primaria);
+    border-radius: 5px;
+}
+
+/* Estilo da seção Sobre */
+#sobre {
+    background-color: #000;
+    color: var(--cor-fundo-primaria);
+    padding: 50px;
+    text-align: justify;
+}
+
+#sobre h1 {
+    font-size: 40px;
+}
+
+#sobre p {
+    font-size: 20px;
+}
+
+/* Estilo da seção Contato */
+#contato {
+    background-color: #111;
+    color: var(--cor-fundo-primaria);
+    padding: 50px;
+    text-align: center;
+}
+
+#contato h1 {
+    font-size: 40px;
+    margin: 0;
+    padding: 1.5%;
+}
+
+#contato a {
+    color: var(--cor-fundo-primaria);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid var(--cor-fundo-primaria);
+    border-radius: 5px;
+}
+
+#contato a:hover {
+    color: #000;
+    background-color: var(--cor-fundo-primaria);
+    border-radius: 5px;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #111;
+    color: var(--cor-fundo-primaria);
+    text-align: center;
+    padding: 20px;
+}
