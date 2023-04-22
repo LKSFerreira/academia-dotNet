@@ -47,16 +47,24 @@ public class Dashbord
                 break;
         }
     }
-    private int SelecionarMenu()
+    public int SelecionarMenu()
     {
-        string entradaUsuario = Console.ReadLine()!;
-        int opcaoMenu = 0;
-
-        if (!int.TryParse(entradaUsuario, out opcaoMenu))
+        do
         {
-            Console.WriteLine($"    Por gentileza, digite um número correspondente");
-        }
-        return opcaoMenu;
+            string entradaUsuario = Console.ReadLine()!;
+            int opcaoMenu;
+
+            if (!int.TryParse(entradaUsuario, out _))
+            {
+                Console.WriteLine($"    Por gentileza, digite valor númerico correspondente");
+            }
+            else
+            {
+                opcaoMenu = int.Parse(entradaUsuario);
+                return opcaoMenu;
+            }
+
+        } while (true);
     }
 
     public Jogador PvP(string nomeJogador)
@@ -183,7 +191,7 @@ public class Dashbord
             return jogadores;
         }
 
-        
+
     }
 
     public void ExibirRank()

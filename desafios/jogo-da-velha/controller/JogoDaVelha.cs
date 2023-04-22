@@ -21,7 +21,7 @@ public class JogoDaVelha
 
         Console.WriteLine($"    {jogador01.Nome} pronto(a)! Para o adversário(a)\n");
         Console.WriteLine($"    {jogador02.Nome} preparado(a) para começar!\n ");
-        Thread.Sleep(3000);
+        Thread.Sleep(2000);
 
         Console.Clear();
 
@@ -70,7 +70,7 @@ public class JogoDaVelha
         do
         {
             Console.WriteLine($"    {jogada}\u00aa jogada de: {jogadorDaVez[0].Nome}");
-            string jogadaDoPlayer01 = verificaChatGPT(jogadorDaVez);
+            string jogadaDoPlayer01 = verificaChatGPT(jogadorDaVez[0].Nome);
 
             var realizadaJogada = jogoDaVelhaController.RealizarJogada(tabuleiro, jogadaDoPlayer01, jogadorX);
             tabuleiro = realizadaJogada.Item2;
@@ -98,7 +98,7 @@ public class JogoDaVelha
 
 
             Console.WriteLine($"    {jogada}\u00aa jogada de: {jogadorDaVez[1].Nome}");
-            string jogadaPlayer02 = verificaChatGPT(jogadorDaVez);
+            string jogadaPlayer02 = verificaChatGPT(jogadorDaVez[1].Nome);
 
             realizadaJogada = jogoDaVelhaController.RealizarJogada(tabuleiro, jogadaPlayer02, jogadorO);
             tabuleiro = realizadaJogada.Item2;
@@ -123,10 +123,10 @@ public class JogoDaVelha
         } while (numeroDeJogadas < 9);
     }
 
-    private string verificaChatGPT(Jogador[] jogadorDaVez)
+    private string verificaChatGPT(string jogadorDaVez)
     {
         string jogadaDoPlayer;
-        if (!(jogadorDaVez[0].Nome == "ChatGPT"))
+        if ((jogadorDaVez != "ChatGPT"))
         {
             Console.WriteLine($"    Digite a coordenada da jogada: ");
             jogadaDoPlayer = Console.ReadLine()!.ToUpper();

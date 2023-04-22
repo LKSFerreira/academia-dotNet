@@ -10,7 +10,7 @@ public class JogoDaVelhaController
         Console.WriteLine($"    3 - Estatísticas do jogador");
         Console.WriteLine($"    0 - Sair");
         Console.WriteLine($"");
-        int opcaoMenu = int.Parse(Console.ReadLine()!);
+        int opcaoMenu = dashbord.SelecionarMenu();
 
         switch (opcaoMenu)
         {
@@ -41,7 +41,7 @@ public class JogoDaVelhaController
         Console.WriteLine($"    3 - Estatísticas do jogador");
         Console.WriteLine($"    0 - Sair");
         Console.WriteLine($"");
-        int opcaoMenu = int.Parse(Console.ReadLine()!);
+        int opcaoMenu = dashbord.SelecionarMenu();
 
         switch (opcaoMenu)
         {
@@ -163,27 +163,44 @@ public class JogoDaVelhaController
         return coord;
     }
 
+    // public static bool CondicionalVitoria(string tabuleiro, string jogador_X_ou_O)
+    // {
+    //     char valor = jogador_X_ou_O[0];
+
+    //     foreach (var letra in tabuleiro)
+    //     {
+    //         if (letra == valor)
+    //         {
+    //             if ((tabuleiro.ElementAt(146) == valor && tabuleiro.ElementAt(92) == valor && tabuleiro.ElementAt(38) == valor) ||
+    //                 (tabuleiro.ElementAt(152) == valor && tabuleiro.ElementAt(98) == valor && tabuleiro.ElementAt(44) == valor) ||
+    //                 (tabuleiro.ElementAt(158) == valor && tabuleiro.ElementAt(104) == valor && tabuleiro.ElementAt(50) == valor) ||
+    //                 (tabuleiro.ElementAt(146) == valor && tabuleiro.ElementAt(152) == valor && tabuleiro.ElementAt(158) == valor) ||
+    //                 (tabuleiro.ElementAt(92) == valor && tabuleiro.ElementAt(98) == valor && tabuleiro.ElementAt(104) == valor) ||
+    //                 (tabuleiro.ElementAt(38) == valor && tabuleiro.ElementAt(44) == valor && tabuleiro.ElementAt(50) == valor) ||
+    //                 (tabuleiro.ElementAt(146) == valor && tabuleiro.ElementAt(98) == valor && tabuleiro.ElementAt(50) == valor) ||
+    //                 (tabuleiro.ElementAt(38) == valor && tabuleiro.ElementAt(98) == valor && tabuleiro.ElementAt(158) == valor))
+    //             {
+    //                 return true;
+    //             }
+    //         }
+    //     }
+    //     return false;
+    // }
+
     public static bool CondicionalVitoria(string tabuleiro, string jogador_X_ou_O)
     {
         char valor = jogador_X_ou_O[0];
+        int[,] posicoesVitoria = new int[8, 3] { { 146, 92, 38 }, { 152, 98, 44 }, { 158, 104, 50 }, { 146, 152, 158 }, { 92, 98, 104 }, { 38, 44, 50 }, { 146, 98, 50 }, { 38, 98, 158 } };
 
-        foreach (var letra in tabuleiro)
+        for (int i = 0; i < posicoesVitoria.GetLength(0); i++)
         {
-            if (letra == valor)
+            if (tabuleiro.ElementAt(posicoesVitoria[i, 0]) == valor && tabuleiro.ElementAt(posicoesVitoria[i, 1]) == valor && tabuleiro.ElementAt(posicoesVitoria[i, 2]) == valor)
             {
-                if ((tabuleiro.ElementAt(146) == valor && tabuleiro.ElementAt(92) == valor && tabuleiro.ElementAt(38) == valor) ||
-                    (tabuleiro.ElementAt(152) == valor && tabuleiro.ElementAt(98) == valor && tabuleiro.ElementAt(44) == valor) ||
-                    (tabuleiro.ElementAt(158) == valor && tabuleiro.ElementAt(104) == valor && tabuleiro.ElementAt(50) == valor) ||
-                    (tabuleiro.ElementAt(146) == valor && tabuleiro.ElementAt(152) == valor && tabuleiro.ElementAt(158) == valor) ||
-                    (tabuleiro.ElementAt(92) == valor && tabuleiro.ElementAt(98) == valor && tabuleiro.ElementAt(104) == valor) ||
-                    (tabuleiro.ElementAt(38) == valor && tabuleiro.ElementAt(44) == valor && tabuleiro.ElementAt(50) == valor) ||
-                    (tabuleiro.ElementAt(146) == valor && tabuleiro.ElementAt(98) == valor && tabuleiro.ElementAt(50) == valor) ||
-                    (tabuleiro.ElementAt(38) == valor && tabuleiro.ElementAt(98) == valor && tabuleiro.ElementAt(158) == valor))
-                {
-                    return true;
-                }
+                return true;
             }
         }
         return false;
     }
+
+
 }
