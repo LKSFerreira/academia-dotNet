@@ -30,18 +30,26 @@ public class JogoDaVelha
         IniciaPartida(jogador01, jogador02);
     }
 
-    private string jogaChatGPT(HashSet<string> coordenadasOcupadas)
+    private string jogaChatGPT(string tabuleiro, HashSet<string> coordenadasOcupadas)
     {
-        Random random = new Random();
-        string jogadaChatGTP;
-
-        do
+        if (dificuldadeIA)
         {
-            jogadaChatGTP = random.Next(1, 10).ToString();
+            IaDoMal iaDoMal = new IaDoMal();
+            return iaDoMal.MelhorJogada(tabuleiro, coordenadasOcupadas);
+        }
+        else
+        {
+            Random random = new Random();
+            string jogadaChatGTP;
 
-        } while (coordenadasOcupadas.Contains(jogadaChatGTP));
+            do
+            {
+                jogadaChatGTP = random.Next(1, 10).ToString();
 
-        return jogadaChatGTP;
+            } while (coordenadasOcupadas.Contains(jogadaChatGTP));
+
+            return jogadaChatGTP;
+        }
     }
 
     private void IniciaPartida(Jogador player01, Jogador player02)
@@ -70,7 +78,7 @@ public class JogoDaVelha
         do
         {
             Console.WriteLine($"    {jogada}\u00aa jogada de: {jogadorDaVez[0].Nome}");
-            string jogadaDoPlayer01 = verificaChatGPT(jogadorDaVez[0].Nome);
+            string jogadaDoPlayer01 = verificaChatGPT(tabuleiro, jogadorDaVez[0].Nome);
 
             var realizadaJogada = jogoDaVelhaController.RealizarJogada(tabuleiro, jogadaDoPlayer01, jogadorX);
             tabuleiro = realizadaJogada.Item2;
@@ -98,7 +106,7 @@ public class JogoDaVelha
 
 
             Console.WriteLine($"    {jogada}\u00aa jogada de: {jogadorDaVez[1].Nome}");
-            string jogadaPlayer02 = verificaChatGPT(jogadorDaVez[1].Nome);
+            string jogadaPlayer02 = verificaChatGPT(tabuleiro, jogadorDaVez[1].Nome);
 
             realizadaJogada = jogoDaVelhaController.RealizarJogada(tabuleiro, jogadaPlayer02, jogadorO);
             tabuleiro = realizadaJogada.Item2;
@@ -123,7 +131,7 @@ public class JogoDaVelha
         } while (numeroDeJogadas < 9);
     }
 
-    private string verificaChatGPT(string jogadorDaVez)
+    private string verificaChatGPT(string tabuleiro, string jogadorDaVez)
     {
         string jogadaDoPlayer;
         if ((jogadorDaVez != "ChatGPT"))
@@ -134,7 +142,7 @@ public class JogoDaVelha
         else
         {
             Thread.Sleep(1000);
-            jogadaDoPlayer = jogaChatGPT(JogoDaVelhaController.BuscarCoordenadasOcupadas()).ToString();
+            jogadaDoPlayer = jogaChatGPT(tabuleiro, JogoDaVelhaController.BuscarCoordenadasOcupadas()).ToString();
         }
 
         return jogadaDoPlayer;

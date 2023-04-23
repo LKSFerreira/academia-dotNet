@@ -2,5 +2,7 @@
 do
 {
     dashbord.Iniciar();
-    
+
+    JogoDaVelhaController.limparCoordenadasOcupadas();
+
 } while (true);
