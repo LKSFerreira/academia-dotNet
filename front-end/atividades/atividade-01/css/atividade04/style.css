@@ -1,5 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 @import url(botoes.css);
+@import url(texto.css);
 
 :root {
     --cor-de-fundo-grandiente-vermelho: linear-gradient(60deg, rgb(104, 7, 7) 0%, rgb(204, 4, 4) 100%);
@@ -11,6 +12,7 @@
 }
 
 body {
+    overflow: hidden;
     margin: 0;
 }
 
@@ -26,7 +28,7 @@ p {
     letter-spacing: 1px;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #050505;
+    color: #000000;
 }
 
 .header {
@@ -34,14 +36,7 @@ p {
     text-align: center;
     background: linear-gradient(60deg, rgb(157, 1, 108) 0%, rgb(164, 2, 185) 100%);
     color: white;
-}
 
-.logo {
-    width: 50px;
-    fill: white;
-    padding-right: 15px;
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .inner-header {
@@ -59,8 +54,6 @@ p {
     text-align: center;
 }
 
-
-
 .waves {
     position: relative;
     width: 100%;
@@ -76,6 +69,14 @@ p {
     height: 20vh;
     text-align: center;
     background-color: white;
+}
+
+.frame_conteudo_botoes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* Animation */

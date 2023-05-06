@@ -25,9 +25,9 @@ h1 {
 p {
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
-    font-size: 14px;
-    font-weight: 600;
-    color: #333333;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000000;
 }
 
 .header {

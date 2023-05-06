@@ -14,14 +14,12 @@ $radios.forEach((botao, index) => {
 });
 
 $botoes.forEach((botao, index) => {
-    console.log('botao' + index);
-    
     switch (index) {
         case 0:
             botao.addEventListener("click", () => window.location.href = "atividade02.html");
             break;
         case 1:
-            botao.addEventListener("click", () => window.location.href = "atividade03.html");
+            botao.addEventListener("click", () => window.location.href = "atividade04.html");
             break;
     }
 });
