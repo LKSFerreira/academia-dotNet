@@ -1,5 +1,6 @@
-@import url(//fonts.googleapis.com/css?family=Lato:300:400);
-
+@import url(//fonts.googleapis.com/css?family=Lato:300:400:600:800);
+@import url(botoes.css);
+@import url(texto.css);
 
 :root {
     --cor-de-fundo-grandiente-vermelho: linear-gradient(60deg, rgb(104, 7, 7) 0%, rgb(204, 4, 4) 100%);
@@ -34,14 +35,6 @@ p {
     text-align: center;
     background: linear-gradient(60deg, rgb(157, 1, 108) 0%, rgb(164, 2, 185) 100%);
     color: white;
-}
-
-.logo {
-    width: 50px;
-    fill: white;
-    padding-right: 15px;
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .inner-header {
