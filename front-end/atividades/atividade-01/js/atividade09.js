@@ -4,15 +4,17 @@ const regex = /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()])[a-zA-Z\d!@#$%^&*()-]{8,}$/
 const camposDoFormulario = document.querySelectorAll('[required]');
 
 form.addEventListener('submit', (event) => {
+    camposDoFormulario.forEach((campo) => {
+        campo.addEventListener("blur", () => verificaCampo(campo));
+        campo.addEventListener("invalid", evento => evento.preventDefault())
+    })
+
     event.preventDefault();
     alert('Formulário enviado!');
     window.location.href = "atividade10.html";
 });
 
-camposDoFormulario.forEach((campo) => {
-    campo.addEventListener("blur", () => verificaCampo(campo));
-    campo.addEventListener("invalid", evento => evento.preventDefault())
-})
+
 
 const tiposDeErro = [
     'valueMissing',

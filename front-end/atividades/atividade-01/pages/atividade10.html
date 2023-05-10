@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/atividade10/formulario.css">
+    <title>Atividades | 10</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="row">
+            <div class="col-md-12">
+                <form action="index.html" method="post">
+                    <h1> Formulário de Cadastro </h1>
+
+                    <fieldset>
+                        <div class="container_radio-buttons">
+                            <div>
+                                <input type="radio" id="pessoa_fisica" name="tipo_pessoa" required data-radio>
+                                <label for="pessoa_fisica" class="light">Pessoa Física</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="pessoa_juridica" name="tipo_pessoa" required data-radio placeholder="Digite aqui seu nome completo">
+                                <label for="pessoa_juridica" class="light">Pessoa Jurídica</label>
+                            </div>
+                        </div>
+
+                        <label for="nome" data-nome>Nome Completo:</label>
+                        <input type="text" id="nome" name="user_nome" required minlength="6" maxlength="50" placeholder="Digite aqui seu nome completo" data-nome>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="mail" name="user_email" required minlength="6" maxlength="50" placeholder="Digite aqui seu endereço de e-mail">
+
+                        <label for="celular">Celular:</label>
+                        <input type="number" id="celular" name="user_celular" required minlength="11" maxlength="11" placeholder="Digite aqui seu número de celular">
+
+                        <label for="cpf">CPF:</label>
+                        <input type="number" id="cpf" name="user_cpf" required minlength="11" maxlength="11" placeholder="Digite aqui seu CPF">
+
+                        <label for="nascimento">Data de Nascimento:</label>
+                        <input type="date" id="nascimento" name="user_nascimento" required minlength="8" maxlength="8">
+
+                        <div>
+                            <label for="cep">CEP:</label>
+                            <span id="erro-cep" class="erro__texto"></span>
+                            <input type="number" id="cep" name="user_cep" required minlength="8" maxlength="8" placeholder="Digite aqui o cep do seu endereço">
+                        </div>
+
+                        <label for="logradouro">Logradouro:</label>
+                        <input type="text" id="logradouro" name="user_name" disabled>
+
+                        <div class="container_complemento-endereco">
+                            <div class="container_complemento-endereco__complemento">
+                                <label for="complemento">Complemento:</label>
+                                <input type="text" id="complemento" name="user_complemento" required minlength="10" max="40" placeholder="Digite aqui o complemento do seu endereço">
+                            </div>
+                            <div class="container_complemento-endereco__numero">
+                                <label for="numero">Numero:</label>
+                                <input type="number" id="numero" name="user_numero" required minlength="1" max="5" placeholder="Digite aqui o número do seu endereço">
+                            </div>
+                        </div>
+                        <label for="bairro">Bairro:</label>
+                        <input type="text" id="bairro" name="user_name" disabled>
+
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" id="cidade" name="user_name" disabled>
+
+                        <label for="estado">Estado:</label>
+                        <input type="text" id="estado" name="user_name" disabled>
+                    </fieldset>
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="../js/atividade10.js"></script>
+</body>
+
+</html>
