@@ -5,6 +5,5 @@ do
     Dashboard.Inicio();
     Dashboard.Menu();
 
-
     Console.ReadKey();
 } while (true);
