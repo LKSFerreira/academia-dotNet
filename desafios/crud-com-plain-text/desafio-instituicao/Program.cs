@@ -2,8 +2,14 @@
 
 do
 {
-    Dashboard.Inicio();
-    Dashboard.Menu();
+    try
+    {
+        Dashboard.Inicio();
+        Dashboard.Menu();
+    }
+    catch (System.Exception ex)
+    {
+        throw new Exception(ex.Message);
+    }
 
-    Console.ReadKey();
 } while (true);
