@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas Ferreira\\Documents\\GitHub\\academia-dotNet\\exerciciosAcademia\\04-ExerciciosPratica\\AlgoritmoZeroAteDez\\AlgoritmoZeroAteDez.csproj": {}
+    "c:\\Users\\lks_f\\Documentos\\academia-dotNet\\exercicios\\04-ExerciciosPratica\\AlgoritmoZeroAteDez\\AlgoritmoZeroAteDez.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas Ferreira\\Documents\\GitHub\\academia-dotNet\\exerciciosAcademia\\04-ExerciciosPratica\\AlgoritmoZeroAteDez\\AlgoritmoZeroAteDez.csproj": {
+    "c:\\Users\\lks_f\\Documentos\\academia-dotNet\\exercicios\\04-ExerciciosPratica\\AlgoritmoZeroAteDez\\AlgoritmoZeroAteDez.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas Ferreira\\Documents\\GitHub\\academia-dotNet\\exerciciosAcademia\\04-ExerciciosPratica\\AlgoritmoZeroAteDez\\AlgoritmoZeroAteDez.csproj",
+        "projectUniqueName": "c:\\Users\\lks_f\\Documentos\\academia-dotNet\\exercicios\\04-ExerciciosPratica\\AlgoritmoZeroAteDez\\AlgoritmoZeroAteDez.csproj",
         "projectName": "AlgoritmoZeroAteDez",
-        "projectPath": "C:\\Users\\Lucas Ferreira\\Documents\\GitHub\\academia-dotNet\\exerciciosAcademia\\04-ExerciciosPratica\\AlgoritmoZeroAteDez\\AlgoritmoZeroAteDez.csproj",
-        "packagesPath": "C:\\Users\\Lucas Ferreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas Ferreira\\Documents\\GitHub\\academia-dotNet\\exerciciosAcademia\\04-ExerciciosPratica\\AlgoritmoZeroAteDez\\obj\\",
+        "projectPath": "c:\\Users\\lks_f\\Documentos\\academia-dotNet\\exercicios\\04-ExerciciosPratica\\AlgoritmoZeroAteDez\\AlgoritmoZeroAteDez.csproj",
+        "packagesPath": "C:\\Users\\lks_f\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\lks_f\\Documentos\\academia-dotNet\\exercicios\\04-ExerciciosPratica\\AlgoritmoZeroAteDez\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lucas Ferreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\lks_f\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
