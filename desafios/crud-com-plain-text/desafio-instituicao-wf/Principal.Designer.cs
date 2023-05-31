@@ -60,7 +60,7 @@ partial class Principal
 
         this.Controls.Add(tabelaDeDados);
         tabelaDeDados.ColumnCount = 8;
-        this.tabelaDeDados.Columns[0].Name = "Nome";
+        this.tabelaDeDados.Columns[0].Name = "Id";
         this.tabelaDeDados.Columns[1].Name = "Telefone";
         this.tabelaDeDados.Columns[2].Name = "Cidade";
         this.tabelaDeDados.Columns[3].Name = "RG";
