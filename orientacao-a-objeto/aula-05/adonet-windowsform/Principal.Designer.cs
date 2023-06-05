@@ -30,7 +30,10 @@ partial class Principal
     Botao botaoFiltrar = new Botao("Filtrar", 550, 40);
     Botao botaoConsultar = new Botao("Consultar", 750, 40);
     Botao botaoCadastrar = new Botao("Cadastrar", 550, 105);
+    Botao botaoConsultarID = new Botao("Buscar ID", 950, 40);
     Botao botaoExcluir = new Botao("Excluir", 750, 105);
+    Botao botaoAlterar = new Botao("Alterar", 950, 105);
+
     CaixaDeTexto textBoxNome = new CaixaDeTexto(10, 50);
     CaixaDeTexto textBoxProfissao = new CaixaDeTexto(10, 110);
 
@@ -61,6 +64,10 @@ partial class Principal
         this.Controls.Add(botaoConsultar);
         botaoConsultar.Click += new EventHandler(this.botaoConsultar_Click);
 
+        // Cria um botao para consultar no banco de dados
+        this.Controls.Add(botaoConsultarID);
+        botaoConsultarID.Click += new EventHandler(this.botaoConsultarID_Click);
+
         // Cria um botao para cadastrar no banco de dados
         this.Controls.Add(botaoCadastrar);
         botaoCadastrar.Click += new EventHandler(this.botaoCadastrar_Click);
@@ -68,6 +75,10 @@ partial class Principal
         // Cria um botao para excluir no banco de dados
         this.Controls.Add(botaoExcluir);
         botaoExcluir.Click += new EventHandler(this.botaoExcluir_Click);
+
+        // Cria um botao para alterar no banco de dados
+        this.Controls.Add(botaoAlterar);
+        botaoAlterar.Click += new EventHandler(this.botaoAlterar_Click);
 
         // Cria a caixa de texto para filtrar no banco de dados
         this.Controls.Add(textBoxNome);
@@ -81,11 +92,44 @@ partial class Principal
         consultar();
     }
 
+    private void botaoConsultarID_Click(object sender, EventArgs e)
+    {
+        // Cria uma caixa de dialogo para receber o ID com input do usuario
+        string id = Microsoft.VisualBasic.Interaction.InputBox("Digite o ID", "Consultar ID", "0");
+        
+
+    }
+
+    private void botaoAlterar_Click(object sender, EventArgs e)
+    {
+        int rowIndex = tabelaDeDados.CurrentCell.RowIndex;
+        int id = Convert.ToInt32(tabelaDeDados.Rows[rowIndex].Cells["id"].Value);
+        string nome = textBoxNome.Text;
+        string profissao = textBoxProfissao.Text;
+
+        Pessoa pessoa = new Pessoa(id, nome, profissao);
+
+
+        if (textBoxNome.Text == "" || textBoxProfissao.Text == "")
+        {
+            MessageBox.Show("Preencha todos os campos!");
+            if (textBoxNome.Text == "") textBoxNome.Focus();
+            else textBoxProfissao.Focus();
+        }
+        else
+        {
+            if (pessoa.alterar()) MessageBox.Show("Pessoa alterada com sucesso!");
+            textBoxNome.Text = "";
+            textBoxProfissao.Text = "";
+            consultar();
+        }
+    }
+
     private void botaoExcluir_Click(object sender, EventArgs e)
     {
         int rowIndex = tabelaDeDados.CurrentCell.RowIndex;
         string id = tabelaDeDados.Rows[rowIndex].Cells["id"].Value.ToString();
-        if (Pessoa.excluirPessoa(id)) MessageBox.Show("Pessoa excluída com sucesso!");
+        if (Pessoa.excluir(id)) MessageBox.Show("Pessoa excluída com sucesso!");
         consultar();
     }
     private void botaoCadastrar_Click(object sender, EventArgs e)
@@ -103,7 +147,7 @@ partial class Principal
         }
         else
         {
-            if (pessoa.gravarPessoa()) MessageBox.Show("Pessoa cadastrada com sucesso!");
+            if (pessoa.gravar()) MessageBox.Show("Pessoa cadastrada com sucesso!");
             textBoxNome.Text = "";
             textBoxProfissao.Text = "";
             consultar();
@@ -131,6 +175,11 @@ partial class Principal
 
     private void botaoFiltrar_Click(object sender, EventArgs e)
     {
+        // Jamais utilizar em banco de produção o método de consulta abaixo pois é vulnerável a SQL Injection
+        // Exemplo: Na caixa de texto, usuários mal intentionados podem digitar o seguinte comando:
+        // '; DROP TABLE pessoas; --" e apagar toda a tabela de pessoas
+        // ' OR 1=1; -- para vizualizar todos os registros
+
         ConexaoDB conexaoDB = new ConexaoDB();
         string sql = "SELECT * FROM pessoas WHERE nome LIKE '%" + textBoxNome.Text + "%'";
         var dataTable = conexaoDB.executarConsultaGenerica(sql);

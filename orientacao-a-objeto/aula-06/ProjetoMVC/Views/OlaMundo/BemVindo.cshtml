@@ -1,0 +1,27 @@
+@{
+    Layout = null;
+    ViewData["Title"] = "Mensagem";
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Bem-vindo</title>
+</head>
+
+<body>
+    <p>@ViewData["Message"]</p>
+    <p>@ViewData["NumTimes"]</p>
+
+    <ul>
+        @for (int i = 0; i < (int)@ViewData["NumTimes"]; i++)
+        {
+            <li>@i: @ViewData["Message"]</li>
+        }
+    </ul>
+</body>
+
+</html>
