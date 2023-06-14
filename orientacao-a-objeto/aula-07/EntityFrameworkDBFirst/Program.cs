@@ -1,6 +1,5 @@
-﻿
-using EntityFramework;
-using EntityFramework.Models;
+﻿using EntityFrameworkDBFirst;
+using EntityFrameworkDBFirst.Models;
 
 Console.WriteLine($"\nDigite a opção desejada:\n");
 Console.WriteLine($"1 - Adicionar o registro de uma pessoa");
@@ -13,7 +12,7 @@ Console.WriteLine($"6 - Consultar pelo ID");
 int opcao = int.Parse(Console.ReadLine()!);
 Console.WriteLine();
 
-EntityAtosContext contexto = new EntityAtosContext();
+DbfirstContext contexto = new DbfirstContext();
 
 switch (opcao)
 {
@@ -39,4 +38,3 @@ switch (opcao)
         Console.WriteLine("Opção inválida!");
         break;
 }
-

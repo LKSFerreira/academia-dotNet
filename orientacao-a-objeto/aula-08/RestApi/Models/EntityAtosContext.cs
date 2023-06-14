@@ -1,8 +1,6 @@
-using System.Configuration;
-using EntityFramework.DataModels;
 using Microsoft.EntityFrameworkCore;
 
-namespace EntityFramework;
+namespace RestApi.Models;
 
 public class EntityAtosContext : DbContext
 {
@@ -14,21 +12,8 @@ public class EntityAtosContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-
-        try
-        {
-            ConnectionStringSettings settings = ConfigurationManager.ConnectionStrings["EntityAtos"];
-            string conexao = "";
-
-            if (settings != null) conexao = settings.ConnectionString;
-
-            optionsBuilder.UseSqlServer(conexao);
-            optionsBuilder.UseLazyLoadingProxies();
-        }
-        catch (Exception ex)
-        {
-            throw new Exception(ex.Message);
-        }
+        optionsBuilder.UseSqlServer("Data Source=localhost; Initial Catalog=CodeFirst; User ID=atos; password=senha123; language=Portuguese; TrustServerCertificate=True");
+        // optionsBuilder.UseLazyLoadingProxies();
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -37,7 +22,5 @@ public class EntityAtosContext : DbContext
             .HasOne(email => email.pessoa)
             .WithMany(pessoa => pessoa.emails)
             .OnDelete(DeleteBehavior.ClientCascade);
-
     }
-
 }

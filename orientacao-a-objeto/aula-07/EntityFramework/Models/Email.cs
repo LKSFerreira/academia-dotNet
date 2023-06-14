@@ -1,4 +1,4 @@
-namespace EntityFramework.DataModels;
+namespace EntityFramework.Models;
 
 public class Email
 {
