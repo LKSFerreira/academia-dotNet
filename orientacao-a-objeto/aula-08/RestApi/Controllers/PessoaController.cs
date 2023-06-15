@@ -47,7 +47,7 @@ public class PessoaController : ControllerBase
         return pessoas == null ? NotFound() : Ok(pessoas);
     }
 
-    [HttpGet("pessoas/{id}")]
+    [HttpGet("buscar/{id}")]
     public async Task<IActionResult> getByIdAsync(
         [FromServices] EntityAtosContext contexto,
         [FromRoute] int id)
@@ -81,7 +81,7 @@ public class PessoaController : ControllerBase
         }
     }
 
-    [HttpPut("pessoas/{id}")]
+    [HttpPut("atualizar/{id}")]
     public async Task<IActionResult> putAsync(
         [FromServices] EntityAtosContext contexto,
         [FromBody] Pessoa pessoa, // Corpo do JSON
@@ -111,7 +111,7 @@ public class PessoaController : ControllerBase
         }
     }
 
-    [HttpDelete("pessoas/{id}")]
+    [HttpDelete("remover/{id}")]
     public async Task<IActionResult> removeByIdAsync(
         [FromServices] EntityAtosContext contexto,
         [FromRoute] int id)

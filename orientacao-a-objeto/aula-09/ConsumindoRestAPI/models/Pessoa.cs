@@ -12,6 +12,6 @@ public class Pessoa
 
     public override string? ToString()
     {
-        return $"Id: {id, -5} | Nome: {nome, -15}";
+        return $"Id: {id,-5} | Nome: {nome,-15}";
     }
 }
