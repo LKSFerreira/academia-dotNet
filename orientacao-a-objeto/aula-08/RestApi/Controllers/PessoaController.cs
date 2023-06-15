@@ -35,7 +35,7 @@ public class PessoaController : ControllerBase
         return $"{nome} é {(idade >= 18 ? "maior" : "menor")} de idade";
     }
 
-    [HttpGet("pessoas")]
+    [HttpGet("listar")]
     public async Task<IActionResult> getAllAsync(
         [FromServices] EntityAtosContext contexto)
     {
@@ -60,7 +60,7 @@ public class PessoaController : ControllerBase
         return pessoa == null ? NotFound() : Ok(pessoa);
     }
 
-    [HttpPost("pessoas")]
+    [HttpPost("cadastrar")]
     public async Task<IActionResult> postAsync(
         [FromServices] EntityAtosContext contexto,
         [FromBody] Pessoa pessoa) // Corpo do JSON
