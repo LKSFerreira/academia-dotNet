@@ -10,11 +10,11 @@ public class PessoaService
 {
     private static List<Pessoa>? pessoas;
 
-    private static async Task<List<Pessoa>> getListar()
+    private static async Task<List<Pessoa>> GetListar()
     {
         try
         {
-            HttpClient client = requisicaoAPI();
+            HttpClient client = RequisicaoAPI();
             var response = await client.GetAsync(client.BaseAddress + "pessoa/listar"); // Faz a requisição GET
             var pessoasJsonString = response.Content.ReadAsStringAsync().Result;
             pessoas = JsonConvert.DeserializeObject<List<Pessoa>>(pessoasJsonString);
@@ -27,58 +27,60 @@ public class PessoaService
         }
     }
 
-    public void listar()
+    public static void Listar()
     {
-        if (getListar().Result.Count > 0)
+        if (GetListar().Result.Count > 0)
             pessoas!.ForEach(pessoa => Console.WriteLine($"{pessoa}"));
         else
             Console.WriteLine($"Nenhuma pessoa cadastrada");
     }
 
-    private static HttpClient requisicaoAPI()
+    private static HttpClient RequisicaoAPI()
     {
-        HttpClient client = new HttpClient(); // Instancia o client para fazer a requisição
-        client.BaseAddress = new Uri("https://localhost:7008"); // Define a URL base da API
+        HttpClient client = new()
+        {
+            BaseAddress = new Uri("https://localhost:7008/pessoa/") // Define a URL base da API
+        }; // Instancia o client para fazer a requisição
         client.DefaultRequestHeaders.Accept.Clear(); // Limpa o cabeçalho de aceitação
         client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json")); // Define o tipo de conteúdo aceito
         return client;
     }
 
-    public async void cadastrar()
+    public static async void Cadastrar()
     {
         Console.WriteLine($"Informe o nome da pessoa:");
         string nome = Console.ReadLine()!;
 
-        HttpClient client = requisicaoAPI();
+        HttpClient client = RequisicaoAPI();
 
         // Necessario importar o PostAsJsonAsync pois não se trata de um método padrão do HttpClient
-        var response = await client.PostAsJsonAsync(client.BaseAddress + "pessoa/cadastrar", new Pessoa(nome));// Faz a requisição POST
+        var response = await client.PostAsJsonAsync(client.BaseAddress + "cadastrar", new Pessoa(nome));// Faz a requisição POST
 
         // Usando if ternário
         Console.WriteLine($"Pessoa {(response.IsSuccessStatusCode ? "cadastrada com sucesso" : $"não cadastrada. Erro: {response.StatusCode}")} ");
-        pessoas = getPessoasList().Result;
+        pessoas = GetPessoasList().Result;
     }
 
-    private static async Task<List<Pessoa>> getPessoasList()
+    private static async Task<List<Pessoa>> GetPessoasList()
     {
-        HttpClient client = requisicaoAPI();
+        HttpClient client = RequisicaoAPI();
 
-        var response = await client.GetAsync(client.BaseAddress + "pessoa/listar"); // Faz a requisição GET
+        var response = await client.GetAsync(client.BaseAddress + "listar"); // Faz a requisição GET
 
         var pessoasJsonString = response.Content.ReadAsStringAsync().Result;
         pessoas = JsonConvert.DeserializeObject<List<Pessoa>>(pessoasJsonString);
         return pessoas ?? new List<Pessoa>();
     }
 
-    public async void atualizar()
+    public static async void Atualizar()
     {
-        getPessoasList().Wait();
+        GetPessoasList().Wait();
 
         Console.WriteLine($"Informe o id da pessoa:");
         int id = int.Parse(Console.ReadLine()!);
 
         // Verifica se o id informado existe na lista de pessoas
-        if (pessoas!.Find(pessoa => pessoa.id == id) == null)
+        if (pessoas!.Find(pessoa => pessoa.Id == id) == null)
         {
             Console.WriteLine($"Pessoa não encontrada");
         }
@@ -87,9 +89,9 @@ public class PessoaService
             Console.WriteLine($"Informe o novo nome da pessoa:");
             string nome = Console.ReadLine()!;
 
-            HttpClient client = requisicaoAPI();
+            HttpClient client = RequisicaoAPI();
             // Necessario importar o PutAsJsonAsync pois não se trata de um método padrão do HttpClient    
-            var response = await client.PutAsJsonAsync(client.BaseAddress + $"pessoa/atualizar/{id}", new Pessoa(nome));// Faz a requisição PUT
+            var response = await client.PutAsJsonAsync(client.BaseAddress + $"atualizar/{id}", new Pessoa(nome));// Faz a requisição PUT
 
             Console.WriteLine($"Pessoa {(response.IsSuccessStatusCode ? "atualizada com sucesso" : $"não atualizada. Erro: {response.StatusCode}")} ");
         }
@@ -98,36 +100,84 @@ public class PessoaService
     /// <summary> Remove uma pessoa. </summary>
     /// <remarks> Caso a pessoa tenha algum e-mail vinculado por chave estrangeira, não será possível remover. 
     /// O código de retorno será um bad request (400).</remarks>
-    public async void remover()
+    public static async void Remover()
     {
-        getPessoasList().Wait();
+        GetPessoasList().Wait();
 
         Console.WriteLine($"Informe o id da pessoa:");
         int id = int.Parse(Console.ReadLine()!);
 
         // Verifica se o id informado existe na lista de pessoas
-        if (pessoas!.Find(pessoa => pessoa.id == id) == null)
+        if (pessoas!.Find(pessoa => pessoa.Id == id) == null)
         {
             Console.WriteLine($"Pessoa não encontrada");
         }
         else
         {
-            HttpClient client = requisicaoAPI();
+            HttpClient client = RequisicaoAPI();
 
-            var response = await client.DeleteAsync(client.BaseAddress + $"pessoa/remover/{id}"); // Faz a requisição DELETE
+            var response = await client.DeleteAsync(client.BaseAddress + $"remover/{id}"); // Faz a requisição DELETE
 
             Console.WriteLine($"Pessoa {(response.IsSuccessStatusCode ? "removida com sucesso" : $"não removida. Erro: {response.StatusCode}")} ");
         }
     }
 
-    public void buscarPorId()
+    public static void BuscarPorId()
     {
         Console.WriteLine($"Informe o id da pessoa:");
         int id = int.Parse(Console.ReadLine()!);
 
-        getListar().Wait();
+        GetListar().Wait();
 
         // Por meio de uma expressão lambda, busca a pessoa na lista pelo ID
-        Console.WriteLine($"{pessoas!.Find(pessoa => pessoa.id == id) ?? new Pessoa("Pessoa não encontrada")}");
+        Console.WriteLine($"{pessoas!.Find(pessoa => pessoa.Id == id) ?? new Pessoa("Pessoa não encontrada")}");
+    }
+
+    public static string SolicitarToken()
+    {
+        Console.WriteLine($"Informe seu usuário:");
+        string usuario = "lksferreira";
+        Console.WriteLine($"Informe sua senha:");
+        string senha = "lks123";
+
+        HttpClient client = RequisicaoAPI();
+        // Necessario importar o PostAsJsonAsync pois não se trata de um método padrão do HttpClient
+        var response = client.PostAsJsonAsync(client.BaseAddress + "autenticar", new Acesso(usuario, senha)).Result;// Faz a requisição POST
+        Console.WriteLine();
+
+        if (response.IsSuccessStatusCode)
+        {
+            var token = response.Content.ReadAsStringAsync().Result;
+            Console.WriteLine($"Token: {token}");
+            return token.Replace("\\", "").Replace("\"", "");
+        }
+        else
+        {
+            Console.WriteLine($"Usuário ou senha inválidos");
+            return "";
+        }
+
+    }
+
+    internal static void ConsumirAPIComToken(string token)
+    {
+        HttpClient client = RequisicaoAPI();
+
+        // Define o token Bearer no cabeçalho da requisição
+        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+        var response = client.GetAsync(client.BaseAddress + "listar").Result; // Faz a requisição GET
+
+        if (response.IsSuccessStatusCode)
+        {
+            var pessoasJsonString = response.Content.ReadAsStringAsync().Result;
+            pessoas = JsonConvert.DeserializeObject<List<Pessoa>>(pessoasJsonString);
+
+            pessoas!.ForEach(pessoa => Console.WriteLine($"{pessoa}"));
+        }
+        else
+        {
+            Console.WriteLine($"Erro: {response.StatusCode}");
+        }
     }
 }

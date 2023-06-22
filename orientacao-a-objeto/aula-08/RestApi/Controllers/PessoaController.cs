@@ -1,22 +1,33 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RestApi.Models;
+using RestApi.Services;
 
 namespace RestApi.Controllers;
 
+[Authorize] // Todas os endpoints dessa controller precisam de autenticação
 [ApiController]
 [Route("[controller]")]
 public class PessoaController : ControllerBase
 {
+    private readonly IJWTAuthenticationManager _jwtAuthenticationManager;
+
+    public PessoaController(IJWTAuthenticationManager jwtAuthenticationManager)
+    {
+        _jwtAuthenticationManager = jwtAuthenticationManager;
+    }
+
+    [AllowAnonymous] // Permite que o endpoint seja acessado sem autenticação
     // Retorna o meu nome
     [HttpGet("nome")]
-    public string getLucas()
+    public string GetLucas()
     {
         return "Lucas";
     }
 
     [HttpGet("idade")]
-    public int getIdade()
+    public int GetIdade()
     {
         return 32;
     }
@@ -24,23 +35,23 @@ public class PessoaController : ControllerBase
     // recebe um nome e retorna uma saudação com o nome
 
     [HttpGet("ola/{nome}")]
-    public string getSaudacao(string nome)
+    public string GetSaudacao(string nome)
     {
         return $"Olá {nome}";
     }
 
     [HttpGet("maioridade/{nome}/{idade}")]
-    public string getMaioridade(string nome, int idade)
+    public string GetMaioridade(string nome, int idade)
     {
         return $"{nome} é {(idade >= 18 ? "maior" : "menor")} de idade";
     }
 
     [HttpGet("listar")]
-    public async Task<IActionResult> getAllAsync(
+    public async Task<IActionResult> GetAllAsync(
         [FromServices] EntityAtosContext contexto)
     {
         var pessoas = await contexto
-            .Pessoas
+            .Pessoas!
             .AsNoTracking()
             .ToListAsync();
 
@@ -48,20 +59,20 @@ public class PessoaController : ControllerBase
     }
 
     [HttpGet("buscar/{id}")]
-    public async Task<IActionResult> getByIdAsync(
+    public async Task<IActionResult> GetByIdAsync(
         [FromServices] EntityAtosContext contexto,
         [FromRoute] int id)
     {
         var pessoa = await contexto
-            .Pessoas
+            .Pessoas!
             .AsNoTracking() // Método para melhorar a performance quando é somente para leitura
-            .FirstOrDefaultAsync(pessoa => pessoa.id == id);
+            .FirstOrDefaultAsync(pessoa => pessoa.Id == id);
 
         return pessoa == null ? NotFound() : Ok(pessoa);
     }
 
     [HttpPost("cadastrar")]
-    public async Task<IActionResult> postAsync(
+    public async Task<IActionResult> PostAsync(
         [FromServices] EntityAtosContext contexto,
         [FromBody] Pessoa pessoa) // Corpo do JSON
     {
@@ -70,10 +81,10 @@ public class PessoaController : ControllerBase
 
         try
         {
-            await contexto.Pessoas.AddAsync(pessoa);
+            await contexto.Pessoas!.AddAsync(pessoa);
             await contexto.SaveChangesAsync();
 
-            return Created($"Pessoa/pessoas/{pessoa.id}", pessoa);
+            return Created($"Pessoa/pessoas/{pessoa.Id}", pessoa);
         }
         catch (System.Exception)
         {
@@ -82,7 +93,7 @@ public class PessoaController : ControllerBase
     }
 
     [HttpPut("atualizar/{id}")]
-    public async Task<IActionResult> putAsync(
+    public async Task<IActionResult> PutAsync(
         [FromServices] EntityAtosContext contexto,
         [FromBody] Pessoa pessoa, // Corpo do JSON
         [FromRoute] int id) // Vem da rota para buscar o registro
@@ -91,16 +102,16 @@ public class PessoaController : ControllerBase
             return BadRequest();
 
         var pessoaTemp = await contexto
-            .Pessoas
-            .FirstOrDefaultAsync(pessoa => pessoa.id == id);
+            .Pessoas!
+            .FirstOrDefaultAsync(pessoa => pessoa.Id == id);
 
         if (pessoaTemp == null)
             return NotFound("Registro não encontrado");
 
         try
         {
-            pessoaTemp!.nome = pessoa.nome;
-            contexto.Pessoas.Update(pessoaTemp);
+            pessoaTemp!.Nome = pessoa.Nome;
+            contexto.Pessoas!.Update(pessoaTemp);
             await contexto.SaveChangesAsync();
 
             return Ok(pessoa);
@@ -112,20 +123,20 @@ public class PessoaController : ControllerBase
     }
 
     [HttpDelete("remover/{id}")]
-    public async Task<IActionResult> removeByIdAsync(
+    public async Task<IActionResult> RemoveByIdAsync(
         [FromServices] EntityAtosContext contexto,
         [FromRoute] int id)
     {
         var pessoa = await contexto
-            .Pessoas
-            .FirstOrDefaultAsync(pessoa => pessoa.id == id);
+            .Pessoas!
+            .FirstOrDefaultAsync(pessoa => pessoa.Id == id);
 
         if (pessoa == null)
             return NotFound("Registro não encontrado");
 
         try
         {
-            contexto.Pessoas.Remove(pessoa);
+            contexto.Pessoas!.Remove(pessoa);
             await contexto.SaveChangesAsync();
 
             return Ok("Registro removido com sucesso");
@@ -134,6 +145,22 @@ public class PessoaController : ControllerBase
         {
             return BadRequest(ex.Message);
         }
+    }
+
+    [AllowAnonymous]
+    [HttpPost("autenticar")]
+    public IActionResult Authenticate([FromBody] Cliente cliente)
+    {
+        Console.WriteLine(cliente);
+
+        var token = _jwtAuthenticationManager.Authenticate(cliente.Usuario!, cliente.Senha!);
+
+        if (token == "Usuário ou senha inválidos")
+        {
+            return Unauthorized();
+        }
+
+        return Ok(token);
     }
 
 }

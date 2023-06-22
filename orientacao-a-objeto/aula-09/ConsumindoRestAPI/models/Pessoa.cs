@@ -2,16 +2,16 @@ namespace ConsumindoRestAPI.models;
 
 public class Pessoa
 {
-    public int id { get; set; }
-    public string? nome { get; set; }
+    public int Id { get; set; }
+    public string? Nome { get; set; }
 
     public Pessoa(string nome)
     {
-        this.nome = nome;
+        this.Nome = nome;
     }
 
     public override string? ToString()
     {
-        return $"Id: {id,-5} | Nome: {nome,-15}";
+        return $"Id: {Id,-5} | Nome: {Nome,-15}";
     }
 }

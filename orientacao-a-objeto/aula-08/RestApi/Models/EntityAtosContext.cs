@@ -4,8 +4,8 @@ namespace RestApi.Models;
 
 public class EntityAtosContext : DbContext
 {
-    public DbSet<Pessoa> Pessoas { get; set; }
-    public DbSet<Email> Emails { get; set; }
+    public DbSet<Pessoa>? Pessoas { get; set; }
+    public DbSet<Email>? Emails { get; set; }
 
     // public EntityAtosContext(DbContextOptions<Contexto> options) : base(options) { }
     public EntityAtosContext() { }
@@ -20,7 +20,7 @@ public class EntityAtosContext : DbContext
     {
         modelBuilder.Entity<Email>()
             .HasOne(email => email.pessoa)
-            .WithMany(pessoa => pessoa.emails)
+            .WithMany(pessoa => pessoa.Emails)
             .OnDelete(DeleteBehavior.ClientCascade);
     }
 }
