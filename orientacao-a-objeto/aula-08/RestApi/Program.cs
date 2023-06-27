@@ -21,13 +21,13 @@ builder.Services.AddDbContext<EntityAtosContext>();
 var rng = RandomNumberGenerator.Create();
 
 // Cria um array de bytes com 32 posições
-var bytes = new byte[32];
+var stringChavePrivada = new byte[32];
 
 // Preenche o array de bytes com uma hash aleatória
-rng.GetBytes(bytes);
+rng.GetBytes(stringChavePrivada);
 
 // Converte o array de bytes para uma string
-var tokenKey = Encoding.ASCII.GetString(bytes);
+var tokenKey = Encoding.ASCII.GetString(stringChavePrivada);
 
 // Converte a string para um array de bytes
 var key = Encoding.ASCII.GetBytes(tokenKey);
