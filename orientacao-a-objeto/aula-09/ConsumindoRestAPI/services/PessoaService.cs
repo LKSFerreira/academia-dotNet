@@ -8,32 +8,6 @@ namespace ConsumindoRestAPI.services;
 
 public class PessoaService
 {
-    private static List<Pessoa>? pessoas;
-
-    private static async Task<List<Pessoa>> GetListar()
-    {
-        try
-        {
-            HttpClient client = RequisicaoAPI();
-            var response = await client.GetAsync(client.BaseAddress + "pessoa/listar"); // Faz a requisição GET
-            var pessoasJsonString = response.Content.ReadAsStringAsync().Result;
-            pessoas = JsonConvert.DeserializeObject<List<Pessoa>>(pessoasJsonString);
-
-            return pessoas ?? new List<Pessoa>();
-        }
-        catch (Exception ex)
-        {
-            throw new Exception(ex.Message + " | " + ex.InnerException?.Message);
-        }
-    }
-
-    public static void Listar()
-    {
-        if (GetListar().Result.Count > 0)
-            pessoas!.ForEach(pessoa => Console.WriteLine($"{pessoa}"));
-        else
-            Console.WriteLine($"Nenhuma pessoa cadastrada");
-    }
 
     private static HttpClient RequisicaoAPI()
     {
@@ -45,6 +19,37 @@ public class PessoaService
         client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json")); // Define o tipo de conteúdo aceito
         return client;
     }
+
+    private static async Task<List<Pessoa>> GetListar()
+    {
+        try
+        {
+            HttpClient client = RequisicaoAPI();
+            var response = await client.GetAsync(client.BaseAddress + "pessoa/listar"); // Faz a requisição GET
+            var pessoasJsonString = response.Content.ReadAsStringAsync().Result;
+
+            return response.IsSuccessStatusCode ?
+            JsonConvert.DeserializeObject<List<Pessoa>>(pessoasJsonString)! : throw new Exception($"Erro: {response.StatusCode}");
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message);
+        }
+    }
+
+    public static void Listar()
+    {
+        try
+        {
+            GetListar().Result.ForEach(Console.WriteLine);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao listar pessoas: {ex.Message}");
+        }
+    }
+
+
 
     public static async void Cadastrar()
     {
@@ -58,29 +63,17 @@ public class PessoaService
 
         // Usando if ternário
         Console.WriteLine($"Pessoa {(response.IsSuccessStatusCode ? "cadastrada com sucesso" : $"não cadastrada. Erro: {response.StatusCode}")} ");
-        pessoas = GetPessoasList().Result;
-    }
-
-    private static async Task<List<Pessoa>> GetPessoasList()
-    {
-        HttpClient client = RequisicaoAPI();
-
-        var response = await client.GetAsync(client.BaseAddress + "listar"); // Faz a requisição GET
-
-        var pessoasJsonString = response.Content.ReadAsStringAsync().Result;
-        pessoas = JsonConvert.DeserializeObject<List<Pessoa>>(pessoasJsonString);
-        return pessoas ?? new List<Pessoa>();
     }
 
     public static async void Atualizar()
     {
-        GetPessoasList().Wait();
+        GetListar().Wait();
 
         Console.WriteLine($"Informe o id da pessoa:");
         int id = int.Parse(Console.ReadLine()!);
 
         // Verifica se o id informado existe na lista de pessoas
-        if (pessoas!.Find(pessoa => pessoa.Id == id) == null)
+        if (GetListar().Result.Find(pessoa => pessoa.Id == id) == null)
         {
             Console.WriteLine($"Pessoa não encontrada");
         }
@@ -102,13 +95,13 @@ public class PessoaService
     /// O código de retorno será um bad request (400).</remarks>
     public static async void Remover()
     {
-        GetPessoasList().Wait();
+        GetListar().Wait();
 
         Console.WriteLine($"Informe o id da pessoa:");
         int id = int.Parse(Console.ReadLine()!);
 
         // Verifica se o id informado existe na lista de pessoas
-        if (pessoas!.Find(pessoa => pessoa.Id == id) == null)
+        if (GetListar().Result.Find(pessoa => pessoa.Id == id) == null)
         {
             Console.WriteLine($"Pessoa não encontrada");
         }
@@ -130,15 +123,15 @@ public class PessoaService
         GetListar().Wait();
 
         // Por meio de uma expressão lambda, busca a pessoa na lista pelo ID
-        Console.WriteLine($"{pessoas!.Find(pessoa => pessoa.Id == id) ?? new Pessoa("Pessoa não encontrada")}");
+        Console.WriteLine($"{GetListar().Result.Find(pessoa => pessoa.Id == id) ?? new Pessoa("Pessoa não encontrada")}");
     }
 
     public static string SolicitarToken()
     {
         Console.WriteLine($"Informe seu usuário:");
-        string usuario = "lksferreira";
+        string usuario = "lksferreira"; // Console.ReadLine()!;
         Console.WriteLine($"Informe sua senha:");
-        string senha = "lks123";
+        string senha = "lks123"; // Console.ReadLine()!;
 
         HttpClient client = RequisicaoAPI();
         // Necessario importar o PostAsJsonAsync pois não se trata de um método padrão do HttpClient
@@ -171,7 +164,7 @@ public class PessoaService
         if (response.IsSuccessStatusCode)
         {
             var pessoasJsonString = response.Content.ReadAsStringAsync().Result;
-            pessoas = JsonConvert.DeserializeObject<List<Pessoa>>(pessoasJsonString);
+            var pessoas = JsonConvert.DeserializeObject<List<Pessoa>>(pessoasJsonString);
 
             pessoas!.ForEach(pessoa => Console.WriteLine($"{pessoa}"));
         }
